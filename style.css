@@ -73,7 +73,7 @@ hr{
     bottom: 0;
     right: 0;
     width: 100% !important;
-    height: calc(100% - 50px) !important;
+    height: 100% !important;
   }
 
 #aulas{
