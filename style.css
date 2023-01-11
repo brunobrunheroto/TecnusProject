@@ -29,7 +29,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    height:1200px;
 }
 
 .navbar-nav li{
@@ -59,13 +58,24 @@ hr{
     margin-top: -18px;
     width: 163px;
 }
-
-#jogo{
-    margin-top: -80px;
+.iframe-container{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
 }
 
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
 #aulas{
-    margin-top: 610px;
     background-color: #111111;
 }
 

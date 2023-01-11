@@ -10,21 +10,18 @@
     <link rel="stylesheet" href="style.css">
     <script src=”https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js”></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-
-    <script src = "./carousel.js"></script>
-
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <title>Projeto Tecnus</title>
     </head>
     <body>
-        <div class="parallax-img">
+        <div class="parallax-img d-flex flex-wrap">
             <!-- Header -->
             <nav class="navbar navbar-expand-md text-uppercase fixed-top" id="mainNav">
                 <div class="container">
                     <img width="auto" height="30" href="#page-top" src="./img/GAMELAB_logo.png" alt="Gamelab logo">
-                    <h1 class="navbar-nav navbar-brand mx-auto text">Projeto Tecnus</h1>
-                    <ul class="navbar-nav ml-auto">
+                    <h1 class="navbar-nav navbar-brand mx-auto text d-md-inline-flex">Projeto Tecnus</h1>
+                    <ul class="navbar-nav ml-auto d-none d-md-inline-flex">
                         <li class="nav-item">
                             <a class="nav-link" href="#sobre">Sobre</a>
                         </li>
@@ -39,108 +36,117 @@
             </nav>
 
             <!-- Project Information -->
-            <div id="sobre" class="container project-information w-100 h-50">
-                <div class="row ">
-                <div class="col">
-                    <h2 data-aos="fade-up" class="section text">Parceria Gamelab e Tecnus</h2>
-                    <p data-aos="fade-up" class="text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    </p>
-                </div>
-                <div class="col">
-                        <img width="auto" height="400" class="navbar-brand mx-auto" src="./img/planet.png" alt="Gamelab logo">
-                </div>
-                <div class="col">
-                    <h2 data-aos="fade-up" class="section text">Sobre o Tecnus</h2>
-                    <p data-aos="fade-up" class="text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    </p>
-                </div>
+            <div id="sobre" class="container-fluid project-information h-49 d-inline-block">
+                <div class="row mx-4">
+                    <div class="col-md-4">
+                        <div class="grid-list">
+                            <h2 data-aos="fade-up" class="section text">Parceria Gamelab e Tecnus</h2>
+                            <p data-aos="fade-up" class="text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="grid-list w-100">
+                            <img width="auto" height="100" class=" mx-auto img-fluid mw-100" src="./img/planet.png" alt="Gamelab logo">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="grid-list">
+                            <h2 data-aos="fade-up" class="section text">Sobre o Tecnus</h2>
+                            <p data-aos="fade-up" class="text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <!-- Game -->
-            <div id="jogo" class="container navbar-brand">
-                <h2 class="text">Quiz Gamificado</h2>
+            <div id="jogo" class="container mb-3 align-items-center">
+                <h2 class="text text-center">Quiz Gamificado</h2>
                 <hr class = "quiz-hr"/>
-                <iframe mozallowfullscreen="true" allow="autoplay; fullscreen" src="https://quiz-enactus.netlify.app/" 
-                style="border:0px #000000 none;" name="Tecnus Project" scrolling="no" msallowfullscreen="true" 
-                allowfullscreen="true" webkitallowfullscreen="true" allowtransparency="true" frameborder="0" marginheight="px" 
-                marginwidth="320px" height="540px" width="940px"></iframe>
+                <div class="iframe-container">
+                    <iframe class= "responsive-iframe h-100" mozallowfullscreen="true" allow="autoplay; fullscreen" src="./game.html" 
+                    style="border:0px #000000 none;" name="Tecnus Project" scrolling="no" msallowfullscreen="true" 
+                    allowfullscreen="true" webkitallowfullscreen="true" allowtransparency="true" frameborder="0" marginheight="px" 
+                    marginwidth="320px" height="540px" width="940px"></iframe>
+                </div>
             </div>
 
-            <!-- Classes -->
-            <div class="classes">
-                <div id="aulas" class="container">
-                    <div class="container ">
-                        <div class="row justify-content-space-between">
-                            <div class="col ">
-                                <div class="tecnus-classes">
-                                    <h3 class="text">Aulas Tecnus</h3>
-                                    <img width="auto" height="70" src="./img/rocket.png" />
-                                </div>
-                                <hr class="classes-hr"/>
-                            </div>
-                            <div class="col-2 text-end">
-                                <a href="#" class="links-tecnus"><span>Veja mais  </span><img width="auto" height="20" src="./img/Polygon.png" /></a>
+            
 
+        </div>
+        <!-- Classes -->
+        <div class="classes mt-2">
+            <div id="aulas" class="container">
+                <div class="container ">
+                    <div class="row justify-content-space-between">
+                        <div class="col ">
+                            <div class="tecnus-classes">
+                                <h3 class="text">Aulas Tecnus</h3>
+                                <img width="auto" height="70" src="./img/rocket.png" />
                             </div>
+                            <hr class="classes-hr"/>
                         </div>
-                        
-                        <div class="carousel" data-flickity>
-                            <div class="gallery-cell mx-2">
-                                <iframe width="420" height="315"
-                                src="https://www.youtube.com/watch?v=uoYeRgAB_l8&list=PLChSlL1RYN5tUbsvOZX7IuC8xqK74a8jv">
-                                </iframe>
-                            </div>
-                            <div class="gallery-cell mx-2">
-                                <iframe width="420" height="315"
-                                src="https://www.youtube.com/watch?v=9K7TqKRO5PM&list=PLChSlL1RYN5uryJ0RqMoxlAswHrH3pD-T">
-                                </iframe>
-                            </div>
-                            <div class="gallery-cell mx-2">
-                                <iframe width="420" height="315"
-                                src="https://www.youtube.com/watch?v=19vJYmdlSTQ">
-                                </iframe>
-                            </div>
-                            <div class="gallery-cell mx-2">
-                                <iframe width="420" height="315"
-                                src="https://www.youtube.com/watch?v=1j1-4Y0blu4">
-                                </iframe>
-                            </div>
-                            <div class="gallery-cell mx-2">
-                                <iframe width="420" height="315"
-                                src="https://www.youtube.com/watch?v=lWcvNheQUYk&list=PLChSlL1RYN5uIoror8sQub4LTb-zAuR8W">
-                                </iframe>
-                            </div>
+                        <div class="col-2 text-end">
+                            <a href="#" class="links-tecnus"><span>Veja mais  </span><img width="auto" height="20" src="./img/Polygon.png" /></a>
+
+                        </div>
+                    </div>
+                    
+                    <div class="carousel" data-flickity>
+                        <div class="gallery-cell mx-2">
+                            <iframe width="420" height="315"
+                            src="https://www.youtube.com/embed/watch?v=uoYeRgAB_l8&list=PLChSlL1RYN5tUbsvOZX7IuC8xqK74a8jv">
+                            </iframe>
+                        </div>
+                        <div class="gallery-cell mx-2">
+                            <iframe width="420" height="315"
+                            src="https://www.youtube.com/embed/watch?v=9K7TqKRO5PM&list=PLChSlL1RYN5uryJ0RqMoxlAswHrH3pD-T">
+                            </iframe>
+                        </div>
+                        <div class="gallery-cell mx-2">
+                            <iframe width="420" height="315"
+                            src="https://www.youtube.com/embed/watch?v=8_VD_gJtHc8&list=PLChSlL1RYN5uIoror8sQub4LTb-zAuR8W&index=3">
+                            </iframe>
+                        </div>
+                        <div class="gallery-cell mx-2">
+                            <iframe width="420" height="315"
+                            src="https://www.youtube.com/embed/watch?v=4ywsY7ze65w&list=PLChSlL1RYN5uIoror8sQub4LTb-zAuR8W&index=2">
+                            </iframe>
+                        </div>
+                        <div class="gallery-cell mx-2">
+                            <iframe width="420" height="315"
+                            src="https://www.youtube.com/embed/watch?v=lWcvNheQUYk&list=PLChSlL1RYN5uIoror8sQub4LTb-zAuR8W">
+                            </iframe>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container tecnus-footer">
-                <footer>
-                    <h4 class="col-md-12 text-muted text">Nos siga nas redes sociais!</p>
-                    <div class="d-flex flex-wrap justify-content-between align-items-center">
-                        <div>
-                            <img width="auto" height="50" src="./img/GAMELAB_logo.png" alt="Gamelab logo">
-                            <a href="https://www.linkedin.com/in/brunobrunheroto/" class="links-tecnus mt-3 d-flex align-items-center">
-                                <i class="bi bi-linkedin"></i>
-                                 gamelab-facamp
-                            </a>
-                        </div>
-                        <div>
-                            <p class="col-md-12 mb-0 text-muted"></p>
-                            <img width="auto" height="50" src="./img/Enactus.png" alt="Enactus logo">
-                            <a href="https://www.linkedin.com/in/brunobrunheroto/" class="links-tecnus mt-3 d-flex align-items-center">
-                                <i class="bi bi-instagram"></i>
-                                 enactus-facamp
-                            </a>
-                        </div>
-                    </div>
-                </footer>
-                <br/>
-              </div>
-
         </div>
+        <div class="container tecnus-footer">
+            <footer>
+                <h4 class="col-md-12 text-muted text">Nos siga nas redes sociais!</p>
+                <div class="d-flex flex-wrap justify-content-between align-items-center">
+                    <div>
+                        <img width="auto" height="50" src="./img/GAMELAB_logo.png" alt="Gamelab logo">
+                        <a href="https://www.linkedin.com/in/brunobrunheroto/" class="links-tecnus mt-3 d-flex align-items-center">
+                            <i class="bi bi-linkedin"></i>
+                             gamelab-facamp
+                        </a>
+                    </div>
+                    <div>
+                        <p class="col-md-12 mb-0 text-muted"></p>
+                        <img width="auto" height="50" src="./img/Enactus.png" alt="Enactus logo">
+                        <a href="https://www.linkedin.com/in/brunobrunheroto/" class="links-tecnus mt-3 d-flex align-items-center">
+                            <i class="bi bi-instagram"></i>
+                             enactus-facamp
+                        </a>
+                    </div>
+                </div>
+            </footer>
+            <br/>
+          </div>
   </body>
 </html>
