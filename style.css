@@ -42,7 +42,7 @@ body{
 .parallax-img{
     background-color: #111111 !important;
 
-    background: url(./img/bg.png);
+    background: url(./img/bg.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
