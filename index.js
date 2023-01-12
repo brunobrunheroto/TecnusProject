@@ -6,3 +6,5 @@ function goFullscreen(id) {
       element.webkitRequestFullScreen();
     }
 }
+
+AOS.init();
