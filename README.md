@@ -2,6 +2,10 @@
 
 <p>Together, Gamelab and Tecnus structured this digital platform to facilitate technological education in a didactic way. Gamelab, Facamp's institution, was responsible for the creation of the platform and quizzes, while Tecnus, a project of Enactus Facamp, made the content available. In this way, we seek to deliver the best quality teaching to our students.</p>
 
+[Link to the project](https://tecnusproject.netlify.app/)
+
+[Link to the project's publication on Linkedin](https://www.linkedin.com/feed/update/urn:li:activity:7029229776720510976/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7029229776720510976%29)
+
 ## <ins>Goals</ins>
 
 <p>The project Tenus was developed with the objective of facilitating technological education in a didactic way.</p>
@@ -19,9 +23,9 @@
 
 ## <ins>Interface</ins>
 
-![Screenshot_2](https://github.com/brunobrunheroto/TecnusProject/assets/67275098/2b455c3a-fa95-40f5-8c37-7df5acdeaf46)
+<img src="https://github.com/brunobrunheroto/TecnusProject/assets/67275098/40f8348c-4a91-4cf6-bd28-3dc12183bd93" width="500" />
 
-![Screenshot_3](https://github.com/brunobrunheroto/TecnusProject/assets/67275098/6b660700-f5e8-46e4-b1d3-0773d884868e)
+<img src="https://github.com/brunobrunheroto/TecnusProject/assets/67275098/6b660700-f5e8-46e4-b1d3-0773d884868e" width="500" />
 
 ## <ins>Credits</ins>
 
