@@ -23,11 +23,7 @@
 
 ## <ins>Interface</ins>
 
-![Screenshot_2]()
-
 <img src="https://github.com/brunobrunheroto/TecnusProject/assets/67275098/636a56a0-2ede-4634-a3a5-e6b807929ddd" width="500" />
-
-![Screenshot_3]()
 
 <img src="https://github.com/brunobrunheroto/TecnusProject/assets/67275098/4c307de0-8e11-41ec-93de-d3edfd121afb" width="500" />
 
